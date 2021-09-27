@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+<meta charset="utf-8">
+<title>Mirkhel.Z.zadanie1_WEB</title>
+</head>
+
+<body>
+<p><a id="top"></a></p>
+<h1 id="task1">Список</h1>
+
+<ol>
+<li><a href="http://example.com">ссылка 1)</a></li>
+<li><a href="https://example.com">ссылка 2)</a></li>
+<li><a href="ftp://google.com/fallout/file1.txt">ссылка 3)</a></li>
+<li><a href="ftp://test:password@admin.ru/data/file2.txt">ссылка 4)</a></li>
+<li><a href="https://kylinariya.ru/klassicheskiy-tort-medovik/">ссылка 5)</a></li>
+<li><a href="#top">ссылка 6)</a></li>
+<li><a href="https://www.chitai-gorod.ru/catalog/books/knigi_dlya_detey-9072/?page=1&page=3">ссылка 7)</a></li>
+<li><p>Навигация</p>
+<nav>
+<ul>
+<li><a href="#task1" title="task">Список</a></li>
+<li><a href="#form" title="form">Форма</a></li>
+</ul>
+</nav>
+</li>
+<li><a>ссылка 9)</a></li>
+<li><a href="">ссылка 10)</a></li>
+<li><a href="https://example.com" rel="nofollow">ссылка 11)</a></li>
+<li><a href="htpps://example.com" rel="noindex">ссылка 12)</a></li>
+<li><p>I don't now what to write about in the example, so I'll tell you a recipe for an ordinary biscuit. Ingredeients: flour - 150 gr., sugar - 150 gr., eggs 4-5, a little baking powder and vanilla or vanilla sugar.<a href="https://gotovim-doma.ru/recipe/114-biskvit-klassicheskii">An example of a recipe on the Internet.</a> In order for it to turn out airy and delicious, there is a small but important secret: you just need to beat the egg white and yolk with sugar separately well, and then genetly mix all the ingredients.</p></li>
+<li><a href="https://www.youtube.com/watch?v=Z6258o8LYfI" target="_blank"><img src="https://i.redd.it/r7xl4bkf8d741.jpg" width="50" height="50" alt="ссылка 14)"></a></li>
+<li>
+<img src = "https://i.redd.it/r7xl4bkf8d741.jpg" usemap = "#figures" alt = "ссылка 15)">
+        <map name = "figures">
+            <area shape = "rect" coords = "0,0,110,80" href = "https://example.ru" alt = "квадрат">
+            <area shape = "circle" coords = "248,190,100" href = "https://google.com" alt = "круг">
+        </map>
+</li>
+<li><a href="index.html">ссылка 16)</a></li>
+<li><a href="about/about.html">ссылка 17)</a></li>
+<li><a href="../index.html">ссылка 18)</a></li>
+<li><a href="../../index.html">ссылка 19)</a></li>
+<li><a href="/">ссылка 20)</a></li>
+<li><a href="/about">ссылка 21)</a></li>
+</ol>
+
+<h1 id="form">Форма</h1>
+<form action="/" method="POST">
+<label>
+Имя<br>
+<input name="field-name-1" value="Зармина">
+    </label><br>
+
+    <label>
+        email:<br>
+        <input name="field-email" value="zadanie_1@example.com" type="email">
+    </label><br>
+
+    <label>
+        Дата рождения<br>
+        <input name="field-date" value="2021-09-22" type="date">
+    </label><br>
+
+    Пол:<br>
+    <label><input type="radio" checked="checked" name="radio-group-1" value="Значение1">
+        Мужской</label><br>
+    <label><input type="radio" name="radio-group-1" value="Значение2">
+        Женский</label><br>
+
+    Количество конечностей:<br>
+    <label><input type="radio" checked="checked" name="radio-group-1" value="Значение1">
+        1</label>
+    <label><input type="radio" checked="checked" name="radio-group-1" value="Значение2">
+        2</label>
+    <label><input type="radio" checked="checked" name="radio-group-1" value="Значение3">
+        3</label>
+    <label><input type="radio" name="radio-group-1" value="Значение4">
+        4</label><br>
+
+    <label>
+        Сверхспособности:
+        <br>
+        <select name="field-name-4[]" multiple="multiple">
+            <option value="Значение1" selected="selected">Бессмертие</option>
+            <option value="Значение2">Прохождение сквозь стены</option>
+            <option value="Значение3">Левитация</option>
+        </select>
+    </label><br>
+
+    <label>
+        Биография:
+        <br>
+        <textarea name="field-name-2" style="margin: 0px; height: 35px; width: 187px;">Напишите о себе</textarea>
+    </label><br>
+
+    <label><input type="checkbox" checked="checked" name="check-1">
+        с контрактом ознакомлен (а)</label><br>
+
+    <input type="submit" value="Отправить">
+</form>
+
+</body>
+</html>
